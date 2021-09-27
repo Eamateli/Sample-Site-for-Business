@@ -1,0 +1,128 @@
+
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #5a5a5a;
+}
+
+  .carousel-item{
+    height: 32rem;
+    background-color: #777;
+    color:white;
+    position: relative;
+  }
+
+  .container {
+    position: absolute;
+    bottom:0;
+    left:0;
+    right:0;
+    padding-bottom: 50px;
+  }
+
+  .overlay-image1 {
+    position: absolute;
+    bottom:0;
+    left:0;
+    right:0;
+    top:0;
+    background-position: center;
+    background-size:auto;
+    width:100%;
+    opacity: 0.5;
+  }
+  .overlay-image2 {
+    position: absolute;
+    bottom:0;
+    left:0;
+    right:0;
+    top:0;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.5;
+  }
+
+  .overlay-image3 {
+    position: absolute;
+    bottom:0;
+    left:0;
+    right:0;
+    top:0;
+    background-position:  center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    max-width:100%;
+    height: auto;
+    opacity: 0.5;
+  }
+
+  .marketing{
+    margin-top: 4rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+
+  }
+  .marketing h2 {
+    font-weight: 400;
+  }
+
+  .marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+  }
+
+  .featurette-divider {
+    margin: 5rem 0;
+  }
+
+
+  .featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem;
+    height: 100px;
+    width:641px;
+    margin-top:112px;
+    margin-bottom: 8px;
+    text-align: left;
+
+
+  }
+
+  .featurette{
+    margin-left: 12px;
+    margin-right: -12px;
+  }
+  .lead{
+    text-align: left;
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+    display: block;
+    margin-right: .75rem;
+
+  }
+  .containerx{
+    margin-right: 2.5rem;
+    margin-left: 2.5rem;
+  }
+
+  @media (min-width: 40em) {
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
